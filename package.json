@@ -1,0 +1,21 @@
+{
+  "name": "npm-simulator",
+  "version": "1.0.0",
+  "description": "npm simulator cli",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Amir",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.726.1",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.3.1",
+    "yargs": "^17.7.2"
+  }
+}
